@@ -1,0 +1,45 @@
+body {
+	background-color: #dfdbdb;
+	padding: 1rem;
+	margin: 0;
+}
+
+.title {
+	margin: 0;
+	padding: 1.875rem;
+	text-align: center;
+	background-color: white;
+	font-size: 2.5rem;
+}
+
+.card {
+	margin: auto;
+}
+
+.left-column {
+	padding: 1rem;
+	float: left;
+	width: 75%;
+}
+
+.right-column {
+	padding: 1rem;
+	float: left;
+	width: 25%;
+}
+
+.footer {
+	position: fixed;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	background-color: white;
+  	text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+	.left-column, .right-column {
+	  	width: 100%;
+	}
+  }
+
