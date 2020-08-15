@@ -1,6 +1,5 @@
 body {
-	background-color: #dfdbdb;
-	padding: 1rem;
+	background-color: #eeeeee;
 	margin: 0;
 }
 
@@ -9,27 +8,25 @@ body {
 	padding: 1.875rem;
 	text-align: center;
 	background-color: white;
-	font-size: 2.5rem;
-}
-
-.card {
-	margin: auto;
+	font-size: 2.75rem;
 }
 
 .left-column {
 	padding: 1rem;
-	float: left;
-	width: 75%;
+	width: 25%;
 }
 
 .right-column {
 	padding: 1rem;
-	float: left;
-	width: 25%;
+	width: 75%;
 }
 
+.jumbotron {
+	background-color: #dbdbdb;
+}
+
+
 .footer {
-	position: fixed;
   	left: 0;
   	bottom: 0;
   	width: 100%;
