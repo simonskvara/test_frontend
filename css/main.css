@@ -9651,26 +9651,8 @@ body {
   margin: 0;
 }
 
-.title {
-  margin: 0;
-  padding: 1.875rem;
-  text-align: center;
-  background-color: white;
-  font-size: 2.75rem;
-}
-
-.left-column {
-  padding: 1rem;
-  width: 25%;
-}
-
-.right-column {
-  padding: 1rem;
-  width: 75%;
-}
-
-.jumbotron {
-  background-color: #dbdbdb;
+.container {
+  max-width: 100%;
 }
 
 .footer {
@@ -9681,10 +9663,16 @@ body {
   text-align: center;
 }
 
-@media screen and (max-width: 800px) {
-  .left-column, .right-column {
-    width: 100%;
-  }
+.jumbotron {
+  background-color: #dbdbdb;
+}
+
+.title {
+  margin: 0;
+  padding: 1.875rem;
+  text-align: center;
+  background-color: white;
+  font-size: 2.75rem;
 }
 
 /*# sourceMappingURL=main.css.map */
